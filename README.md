@@ -14,14 +14,16 @@ Summary: A GIT Mirror of Nitro NITF project
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nitro-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nitro-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nitro-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nitro-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nitro-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nitro-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/nitro-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nitro-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/nitro-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nitro-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nitro-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nitro-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nitro/badges/version.svg)](https://anaconda.org/conda-forge/nitro)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nitro/badges/downloads.svg)](https://anaconda.org/conda-forge/nitro)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nitro-green.svg)](https://anaconda.org/conda-forge/nitro) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nitro.svg)](https://anaconda.org/conda-forge/nitro) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nitro.svg)](https://anaconda.org/conda-forge/nitro) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nitro.svg)](https://anaconda.org/conda-forge/nitro) |
 
 Installing nitro
 ================
