@@ -1,6 +1,6 @@
 {% set name = "nitro" %}
 {% set version = "2.7.dev3" %}
-{% set sha256 = "cb41086e0629f1042d36dcca0346e0225dde251434c6af7a61d126982d93636b" %}
+{% set sha256 = "ea4186854b713513b48835eb3d718f3710759e3b367706caef936e3597664f57" %}
 
 package:
   name: {{ name|lower }}
@@ -40,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - chambbj
+    - hobu
