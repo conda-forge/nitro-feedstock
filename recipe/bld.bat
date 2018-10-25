@@ -15,18 +15,4 @@ if errorlevel 1 exit 1
 nmake install
 if errorlevel 1 exit 1
 
-mkdir -p %LIBRARY_PREFIX%\lib\nitroplugins
-copy ..\c\nitf\shared\*.dll %LIBRARY_PREFIX%\lib\nitroplugins\ || exit 1
-if errorlevel 1 exit 1
-
-set ACTIVATE_DIR=%PREFIX%\etc\conda\activate.d
-set DEACTIVATE_DIR=%PREFIX%\etc\conda\deactivate.d
-mkdir %ACTIVATE_DIR%
-mkdir %DEACTIVATE_DIR%
-
-copy %RECIPE_DIR%\scripts\activate.bat %ACTIVATE_DIR%\nitro-activate.bat
-if errorlevel 1 exit 1
-
-copy %RECIPE_DIR%\scripts\deactivate.bat %DEACTIVATE_DIR%\nitro-deactivate.bat
-if errorlevel 1 exit 1
 
