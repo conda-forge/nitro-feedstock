@@ -16,7 +16,7 @@ nmake install
 if errorlevel 1 exit 1
 
 mkdir -p %LIBRARY_PREFIX%\lib\nitroplugins
-copy %RECIPE_DIR%\c\nitf\shared\*.dll %LIBRARY_PREFIX%\lib\nitroplugins || exit 1
+copy ..\c\nitf\shared\*.dll %LIBRARY_PREFIX%\lib\nitroplugins\ || exit 1
 if errorlevel 1 exit 1
 
 set ACTIVATE_DIR=%PREFIX%\etc\conda\activate.d
