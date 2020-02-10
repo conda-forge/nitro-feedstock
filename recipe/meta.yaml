@@ -13,7 +13,6 @@ source:
 
 build:
   noarch: generic
-  skip: True  # [win2008]
   number: 0
 
 requirements:
