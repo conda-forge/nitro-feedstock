@@ -12,7 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [py2k]
+  noarch: generic
+  skip: True  # [win2008]
   number: 0
 
 requirements:
