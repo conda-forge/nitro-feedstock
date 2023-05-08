@@ -1,11 +1,11 @@
-About nitro
-===========
+About nitro-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nitro-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hobu/nitro
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nitro-feedstock/blob/main/LICENSE.txt)
 
 Summary: A GIT Mirror of Nitro NITF project
 
