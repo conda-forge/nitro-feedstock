@@ -1,6 +1,6 @@
 {% set name = "nitro" %}
-{% set version = "2.7.dev7" %}
-{% set sha256 = "e42e23bfb38d6fd00ef46caf381f41d4dd2a3de0f41d378137137e160fb35405" %}
+{% set version = "2.7.dev8" %}
+{% set sha256 = "b00b0c2b9f05388a50a98493d91dec999025e678593b8a8702b3ee7d1eba9da5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ version }}.tar.gz
-  url: https://github.com/hobu/{{ name }}/archive/2.7dev-7.tar.gz
+  url: https://github.com/hobu/{{ name }}/archive/2.7dev-8.tar.gz
   sha256: {{ sha256 }}
 
 build:
