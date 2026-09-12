@@ -12,13 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [win and vc<14]
-  number: 0
+  number: 1
 
 requirements:
   build:
     - cmake
     - make
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:

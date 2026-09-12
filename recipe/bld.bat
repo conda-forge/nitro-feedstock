@@ -3,7 +3,7 @@ cd build
 
 set CXXFLAGS="/D_HAS_AUTO_PTR_ETC=1"
 
-cmake -G "NMake Makefiles" ^
+cmake -G "NMake Makefiles" -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ^
       -DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
       -DCMAKE_BUILD_TYPE:STRING=Release ^
 	  -DBUILD_SHARED_LIBS=ON ^
